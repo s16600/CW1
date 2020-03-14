@@ -11,6 +11,7 @@ namespace Cwiczenia1
         {
             var client = new HttpClient();
             var result = await client.GetAsync("https://www.pja.edu.pl");
+            //test
             //var result = await client.GetAsync(args[0]);
 
             if (result.IsSuccessStatusCode) //2xx
